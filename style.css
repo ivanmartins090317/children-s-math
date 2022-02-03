@@ -11,16 +11,16 @@ body {
 
 .head {
   text-align: center;
-  margin-bottom: 4rem;
+  margin-bottom: 2rem;
   font-family: open sans, sans-serif;
   padding: 1rem;
   color: rgb(255, 148, 77);
 }
 
 p {
-  margin-top: 5rem;
+  margin-top: 0.5rem;
   font-family: open sans, sans-serif;
-  font-size: 27px;
+  font-size: 20px;
   background-color: rgba(253, 253, 253, 0.562);
   display: inline-flex;
   align-items: center;
@@ -31,20 +31,20 @@ p {
 
 p#numberInput.entrada {
   color: rgb(255, 148, 77);
-  margin-top: 1rem;
+  margin-top: 0.2rem;
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 3rem;
+  font-size: 2rem;
 }
 
 #numberInput {
   margin: auto;
   border: 1px solid rgba(7, 7, 7, 0.507);
-  width: 4rem;
-  height: 2rem;
+  width: 2rem;
+  height: 2.5rem;
   padding: 0.5em;
-  border-radius: 30px;
+  border-radius: 20px;
   background-color: rgb(160, 236, 231);
   box-shadow: 0 0 0 5px rgb(255, 148, 77);
   color: rgb(253, 249, 249);
@@ -52,13 +52,13 @@ p#numberInput.entrada {
 
 .container {
   width: 50%;
-  height: 20rem;
+  height: 10rem;
   margin: auto;
   text-align: center;
   padding: 1rem;
 }
 div.container {
-  margin-top: -5rem;
+  margin-top: -4rem;
   width: 100%;
 }
 
@@ -72,8 +72,8 @@ div.container {
   cursor: pointer;
 }
 button {
-  width: 5rem;
-  height: 5rem;
+  width: 3rem;
+  height: 3rem;
   border-radius: 50px;
   margin-right: 2rem;
 }
