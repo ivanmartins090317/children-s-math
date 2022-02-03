@@ -53,15 +53,15 @@ Math.floor(Math.random() * (max - min)) + min
           
            if (but1 == valor){
             alert('Certo!')
-          }else if (but2 == valor){
+          }else if (but2 === valor){
             alert('Certo!')
-          } else if (but3 == valor){
+          } else if (but3 === valor){
             alert('Certo!')
-          }else if (but4 == valor){
+          }else if (but4 === valor){
             alert('Certo!')
-          }else if (but5 == valor){
+          }else if (but5 === valor){
             alert('Certo!')
-          }else if (but6 == valor){
+          }else if (but6 === valor){
             alert('Certo!')
           }else { 
             alert('Tente outra vez!')
