@@ -1,0 +1,78 @@
+style kumon * {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background: url(image/FUNDO\ IVAN.jpg);
+  max-width: 100%;
+  overflow: hidden;
+}
+
+.head {
+  text-align: center;
+  margin-bottom: 4rem;
+  font-family: open sans, sans-serif;
+  padding: 1rem;
+  color: rgb(255, 148, 77);
+}
+
+p {
+  margin-top: 5rem;
+  font-family: open sans, sans-serif;
+  font-size: 27px;
+  background-color: rgba(253, 253, 253, 0.562);
+  display: inline-flex;
+  align-items: center;
+  border-radius: 4px;
+  padding: 5px;
+  color: rgb(255, 148, 77);
+}
+
+p#numberInput.entrada {
+  color: rgb(255, 148, 77);
+  margin-top: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 3rem;
+}
+
+#numberInput {
+  margin: auto;
+  border: 1px solid rgba(7, 7, 7, 0.507);
+  width: 4rem;
+  height: 2rem;
+  padding: 0.5em;
+  border-radius: 30px;
+  background-color: rgb(160, 236, 231);
+  box-shadow: 0 0 0 5px rgb(255, 148, 77);
+  color: rgb(253, 249, 249);
+}
+
+.container {
+  width: 50%;
+  height: 20rem;
+  margin: auto;
+  text-align: center;
+  padding: 1rem;
+}
+div.container {
+  margin-top: -5rem;
+  width: 100%;
+}
+
+.btn {
+  margin-top: 3rem;
+  background-color: rgb(255, 148, 77);
+  border: 1.5px solid white;
+  box-shadow: 0 0 0 3px rgba(255, 255, 255, 0.39);
+  color: white;
+  font-size: 25px;
+  cursor: pointer;
+}
+button {
+  width: 5rem;
+  height: 5rem;
+  border-radius: 50px;
+  margin-right: 2rem;
+}
